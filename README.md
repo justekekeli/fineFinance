@@ -12,7 +12,7 @@ To enable personalized customer experiences and support data-driven decision-mak
 - **dbt** for data transformation and modeling
 - **Apache Airflow** for orchestration and scheduling
 
-This project is designed both as a **learning experience in data engineering** and a functional prototype for a scalable fintech data stack.
+This project is designed to **learn new skills in data engineering** while addressing needs in finance domain in which I started my career.
 
 ---
 

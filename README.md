@@ -44,5 +44,58 @@ This project is designed to **learn new skills in data engineering** while addre
 
 ---
 
-## 📁 Project Structure (coming soon)
+## 📁 Project Structure 
+/fineFinance/
+├── ingestion/ 
+├── orchestration/
+├── postgresScripts/ (contains schema and table creation)
+├── snowflakeScripts (contains schema and table creation following medallion architecture (bronze,silver,gold)
+├── transformation/
+├── docker-compose.yml
+└── README.md
+
+---
+
+## 🚀 Data Stack Overview
+
+| Layer            | Tool           | Description |
+|------------------|----------------|-------------|
+| Source DB        | PostgreSQL     | Operational banking data |
+| Ingestion        | Airbyte        | Sync from Postgres to Snowflake |
+| Warehouse        | Snowflake      | Scalable analytical database |
+| Transformation   | dbt            | Transform raw data into analytics-ready models |
+| Orchestration    | Airflow        | Manages the entire pipeline |
+
+---
+
+## 🔧 Setup Instructions (coming soon)
+
+- How to run locally with Docker
+- Airbyte source/destination configuration
+- dbt models and profiles
+- Airflow DAGs
+
+---
+
+## 📈 Dashboards & Analytics (planned)
+
+- Monthly Statement Explorer
+- Customer Health & Risk Scoring
+- Advisor Portfolio Summary
+- Business KPI Trends
+
+---
+
+## 🧪 Test Coverage (planned)
+
+- dbt tests on freshness, uniqueness, and nulls
+- Integration tests in DAGs
+- Data quality alerts
+
+---
+
+## 🤝 Contributing
+
+This project is part of a personal learning journey in data engineering. Contributions, feedback, and collaboration ideas are welcome.
+
 

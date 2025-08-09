@@ -67,6 +67,10 @@ This project is designed to **learn new skills in data engineering** while addre
 | Orchestration    | Airflow        | Manages the entire pipeline |
 
 ---
+## ❄️ Snowflake Data warehouse model
+
+![title](fine_finance_snowflake_dwh.png)
+---
 
 ## 🔧 Setup Instructions (coming soon)
 

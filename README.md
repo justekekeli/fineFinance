@@ -46,13 +46,13 @@ This project is designed to **learn new skills in data engineering** while addre
 
 ## 📁 Project Structure 
 /fineFinance/ <br>
-├── ingestion/ 
-├── orchestration/
-├── postgresScripts/ (contains schema and table creation)
-├── snowflakeScripts (contains schema and table creation following medallion architecture (bronze,silver,gold)
-├── transformation/
-├── docker-compose.yml
-└── README.md
+├── ingestion/ <br>
+├── orchestration/ <br>
+├── postgresScripts/ (contains schema and table creation) <br>
+├── snowflakeScripts (contains schema and table creation following medallion architecture (bronze,silver,gold) <br>
+├── transformation/ <br>
+├── docker-compose.yml <br>
+└── README.md <br>
 
 ---
 

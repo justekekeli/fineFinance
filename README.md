@@ -45,7 +45,7 @@ This project is designed to **learn new skills in data engineering** while addre
 ---
 
 ## 📁 Project Structure 
-/fineFinance/
+/fineFinance/ <br>
 ├── ingestion/ 
 ├── orchestration/
 ├── postgresScripts/ (contains schema and table creation)

@@ -21,8 +21,6 @@ This project is designed to **learn new skills in data engineering** while addre
 ### 🔹 Customers
 | As a... | I want to... | So that... |
 |--------|---------------|-------------|
-| Customer | View the **current balance** of my account | I can understand my financial status |
-| Customer | View **upcoming transactions** | I can anticipate changes to my balance |
 | Customer | Download my **monthly account statement** | I can track spending and maintain records |
 
 ---

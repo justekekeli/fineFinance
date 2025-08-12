@@ -15,5 +15,6 @@ CREATE TABLE crm.advisor (
     advisor_id UUID PRIMARY KEY,
     firstname VARCHAR(30),
     surname VARCHAR(30),
-    city VARCHAR(30)
+    city VARCHAR(30),
+    creation_date DATE
 );

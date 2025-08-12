@@ -41,8 +41,8 @@ def insert_advisor():
 
     cursor.execute("""
         INSERT INTO crm.advisor
-        (advisor_id, firstname, surname, city)
-        VALUES (%s, %s, %s, %s) ON CONFLICT (advisor_id) DO NOTHING;
+        (advisor_id, firstname, surname, city,creation_date)
+        VALUES (%s, %s, %s, %s,%s) ON CONFLICT (advisor_id) DO NOTHING;
     """, advisor)
 
     conn.commit()

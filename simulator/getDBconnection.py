@@ -30,7 +30,8 @@ def connectToSourceDB():
     return conn
 
 def close_connection(connection):
-    connection.close()
+    if type(connection)!=None:
+        connection.close()
 
 def test_connection():
    conn= connectToSourceDB()

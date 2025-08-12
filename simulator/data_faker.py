@@ -12,7 +12,8 @@ def generate_advisor():
         fake.uuid4(),
         fake.first_name(),
         fake.last_name(),
-        fake.city()
+        fake.city(),
+        datetime.now().date()
 )
 
 def generate_customer(advisor_id):

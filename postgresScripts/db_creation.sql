@@ -1,1 +1,0 @@
-CREATE DATABASE fine_finance_db;

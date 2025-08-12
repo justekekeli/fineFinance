@@ -47,7 +47,7 @@ This project is designed to **learn new skills in data engineering** while addre
 ├── ingestion/ <br>
 ├── orchestration/ <br>
 ├── postgresScripts/ (contains schema and table creation) <br>
-├── snowflakeScripts (contains schema and table creation following medallion architecture (bronze,silver,gold) <br>
+├── snowflakeScripts <br>
 ├── transformation/ <br>
 ├── docker-compose.yml <br>
 └── README.md <br>

@@ -28,7 +28,7 @@ This project is designed to **learn new skills in data engineering** while addre
 ### 🔹 Bank Advisors
 | As a... | I want to... | So that... |
 |--------|---------------|-------------|
-| Advisor | See customers with **high withdrawals, loans, or investments** | I can offer them upgraded services |
+| Advisor | See customers with **high withdrawals, loans, or investments** for 3+months | I can offer them upgraded services |
 | Advisor | See customers who were **in the red** for 3+ months | I can offer budgeting support or financial products |
 
 ---
